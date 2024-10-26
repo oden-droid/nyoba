@@ -1,0 +1,62 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+    color: #333; /* Warna teks utama */
+    padding: 20px; /* Jarak dari tepi */
+}
+
+/* Header styling */
+header {
+    background-color: #FFAB40; /* Warna header */
+    color: white; /* Warna teks header */
+    text-align: center;
+    padding: 20px; /* Jarak dalam header */
+    border-radius: 8px; /* Sudut membulat */
+    margin-bottom: 20px; /* Jarak bawah header */
+}
+
+/* Main content styling */
+main {
+    background: white; /* Latar belakang utama */
+    border-radius: 8px; /* Sudut membulat */
+    padding: 20px; /* Jarak dalam */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Judul utama */
+h2 {
+    color: #FFAB40; /* Warna judul */
+    margin-bottom: 15px; /* Jarak bawah */
+}
+
+/* Styling untuk subjudul */
+h3 {
+    margin-top: 20px; /* Jarak atas */
+    color: #333; /* Warna subjudul */
+}
+
+/* Paragraf styling */
+p {
+    margin-bottom: 15px; /* Jarak bawah setiap paragraf */
+    text-align: justify; /* Rata kanan kiri */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Mengurangi padding di perangkat kecil */
+    }
+
+    main {
+        padding: 15px; /* Mengurangi padding pada main */
+    }
+}

@@ -1,0 +1,191 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #FFAB40;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #FFAB40;
+}
+
+/* Main styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Article styling */
+article {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+section {
+    margin-bottom: 40px;
+}
+
+section h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #FFAB40;
+    border-bottom: 2px solid #FFAB40;
+    padding-bottom: 5px;
+}
+
+/* Image styling */
+.banner-image {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Product Card Styling */
+.product-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #FFAB40;
+    margin: 10px 0;
+}
+
+/* Button styling */
+button {
+    background-color: #FFAB40;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFA000;
+}
+
+/* Highlight link styling */
+.highlight {
+    font-weight: bold;
+    color: #FFAB40;
+}
+
+.highlight a {
+    color: #FFAB40;
+    text-decoration: none;
+}
+
+.highlight a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    header h2 {
+        font-size: 1.4em;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .product-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        margin-bottom: 15px;
+    }
+}

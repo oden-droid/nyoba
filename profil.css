@@ -1,0 +1,57 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Mengatur tinggi body */
+}
+
+/* Header styling */
+header {
+    background-color: #FFAB40; /* Warna header */
+    color: white; /* Warna teks header */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Sudut membulat */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Main styling */
+main {
+    text-align: center; /* Pusatkan teks */
+}
+
+/* Social Icons styling */
+.social-icons {
+    display: flex; /* Gunakan flexbox untuk ikon */
+    gap: 20px; /* Jarak antar ikon */
+}
+
+.icon {
+    font-size: 2em; /* Ukuran ikon */
+    color: white; /* Warna ikon */
+    padding: 15px;
+    border-radius: 50%; /* Membuat ikon berbentuk lingkaran */
+    transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+/* Warna ikon berdasarkan media sosial */
+.whatsapp {
+    background-color: #25D366; /* Warna WhatsApp */
+}
+
+/* Hover effect */
+.icon:hover {
+    opacity: 0.8; /* Efek transparan saat hover */
+}
